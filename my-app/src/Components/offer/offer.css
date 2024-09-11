@@ -1,0 +1,8 @@
+.button {
+  background-color: #b5ddf5;
+  height: 1cm;
+  width: 4cm;
+  border-color: rgb(120, 120, 205);
+  border-radius: 0.7rem;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
+}

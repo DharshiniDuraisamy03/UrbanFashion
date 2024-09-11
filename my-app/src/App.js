@@ -1,15 +1,19 @@
-import './App.css';
-import LandingPage from './Components/landingPage/landing/LandingPage';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import KurtaSetsPage from "./Components/offer/KurtaSetsPage";
+import Layout from "./Components/Layout";
 
 function App() {
   return (
-    <div className="">
-      <header className="">
-        <body>
-         <LandingPage/>
-        </body>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Layout>
+          <Routes>
+            <Route path="/kurthasets" element={<KurtaSetsPage />} />
+          </Routes>
+        </Layout>
+      </div>
+    </Router>
   );
 }
 

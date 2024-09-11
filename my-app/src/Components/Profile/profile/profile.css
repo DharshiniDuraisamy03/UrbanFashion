@@ -1,0 +1,27 @@
+.profilebtn {
+  /* background-color: #b5ddf5; */
+  /* border-color: rgb(120, 120, 205); */
+  /* border-radius: 7rem; */
+  padding-top: 5px;
+  width: 35px;
+  height: 30px;
+  cursor: poiter;
+}
+
+.tooltip {
+  position: absolute;
+  top: 60px;
+  left: 90%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  box-shadow: #b5ddf5;
+  border: #000000;
+  border-color: rgb(7, 34, 38);
+  border-radius: 0.7rem;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
+}
